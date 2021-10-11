@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyTimer</string>
+    <string name="textRestart">Restart</string>
+    <string name="textPause">Pause</string>
+    <string name="textStart">Start</string>
+    <string name="textTimer">0:00:00</string>
+</resources>

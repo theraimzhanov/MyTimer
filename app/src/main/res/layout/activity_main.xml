@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textTimer"
+        android:layout_gravity="center"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"/>
+
+
+
+
+        <Button
+            android:id="@+id/btStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickStart"
+            android:text="@string/textStart" />
+
+        <Button
+            android:id="@+id/btPause"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickpause"
+            android:text="@string/textPause" />
+
+        <Button
+            android:id="@+id/btRestart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickRestart"
+            android:text="@string/textRestart" />
+    <TextView
+        android:id="@+id/textPrint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+         android:textSize="20dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/texttt"
+        android:layout_width="match_parent"
+        android:padding="12dp"
+        android:layout_height="wrap_content"
+        android:text="numbers" />
+
+    <Button
+        android:id="@+id/btNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickNumber"
+        android:text="@string/textRestart" />
+    <ListView
+        android:id="@+id/sadhaso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
